@@ -45,13 +45,14 @@ Project
      ```
     ng new client
     ```
+    and then modify ``` angular.json``` to output to ```server/public``` and also adding ```bootstrap``` to the styles list.
            
 ```
 
 
 ### Prerequisites
 * Know about JavaScript MEAN stack.
-* Have npm & bower installed on your machine.
+* Have npm & ng CLI installed on your machine.
 * Assure you have MongoDB server running on your machine with default settings.
 
 ### Building Steps:
@@ -63,12 +64,12 @@ Project
     npm install
     ```
 
-* Build the needed bower modules as following
+* Change directory to ```client``` and then run the following command
     ```
-    bower install
+    npm install
     ```
 
-* Run this app as following.
+* From inside the root directory, you can run this project as following.
     #### Terminal 1:
 
     ```
