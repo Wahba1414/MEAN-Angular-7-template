@@ -68,12 +68,6 @@ Project
     bower install
     ```
 
-* Create '.env' file in the project root directory to contains your app's environment variable
-```
-    DATABASESERVER_URL='mongodb://localhost:27017/mean_template'
-    PORT=8080
-```
-
 * Run this app as following.
     #### Terminal 1:
 
