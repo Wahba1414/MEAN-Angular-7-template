@@ -42,10 +42,9 @@ Project
 │       
 │   
 └─── client  --> Folder contains all "Front-End" codes. This folder generated automatically using 
-     ```
-    ng new client
-    ```
-    and then modify ``` angular.json``` to output to ```server/public``` and also adding ```bootstrap``` to the styles list.
+    this command: ng new client
+
+    and then modify "angular.json" file to output to "server/public" folder and also adding "bootstrap" to Angular's  styles list.
            
 ```
 
