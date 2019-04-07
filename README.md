@@ -20,11 +20,11 @@ Project
 |        |
 |        |_____ configs.js  --> File contains all needed "Express" configurations like its middlewares and so on.
 |        |
-|        |_____ routes      --> Folder contains all routes for this app APIs.
+|        |_____ routes      --> Folder contains all routes for this app APIs. (with suffix '_routes.js')
 |           
 │       
 │   │   
-│   └─── models  -->  Folder contains all Mongoose models and its plugins.
+│   └─── models  -->  Folder contains all Mongoose models and its plugins. (with suffix '_model.js')
 │          
 │       
 │   │   
@@ -93,6 +93,9 @@ Project
     ```
     http://localhost:8080/
     ```
+    
+### Next
+Add more Grunt tasks to enhance the development environment and prepare files for production.
 
 
 
